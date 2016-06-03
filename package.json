@@ -1,8 +1,8 @@
 {
-  "name": "MuchVote-Site",
+  "name": "inSantos-Site",
   "version": "1.0.0",
-  "description": "MuchVote website",
-  "homepage": "muchvote.cloudoki.com",
+  "description": "inSantos website",
+  "homepage": "insantos.cloudoki.com",
   "author": "Maria Ribeiro",
   "email": "maria@cloudoki.com",
   "scripts": {
