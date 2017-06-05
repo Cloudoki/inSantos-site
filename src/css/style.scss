@@ -3,6 +3,7 @@
 body {
   font-weight: 300;
   color: #333;
+  font-size: 1.6em;
 }
 
 h1, h2, h3 {
@@ -147,12 +148,14 @@ header {
 
     .step {
       padding: 20px;
-      border:2px solid rgba(254, 201, 0, 0.8);
       min-height: 85px;
       font-size: 1.1em;
-      background: #fff;
       text-align: center;
-      // color: rgba(254, 201, 0, 1);
+      background-color: rgba(254, 201, 0, 0.8);
+      text-align: center;
+      color: #fff;
+      font-weight: 400;
+      font-size: 0.9em;
     }
 
     &:after {
@@ -174,4 +177,26 @@ header {
       }
     }
   }
+}
+
+.logo-header {
+  margin: 20px 0;
+  display: block;
+}
+
+img.cloudokilogo {
+  max-width: 50px;
+  display: inline-block;
+}
+
+.cloudoki-text {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: 'Lato';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.5em;
+  position: relative;
+  top: 3px;
 }
