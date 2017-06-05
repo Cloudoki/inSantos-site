@@ -137,3 +137,41 @@ header {
     list-style-type: none;
     padding: 0px;
 }
+
+.howto {
+  padding: 50px 0 40px;
+
+  .step-wrapper {
+    padding: 0 20px 0 20px;
+    position: relative;
+
+    .step {
+      padding: 20px;
+      border:2px solid rgba(254, 201, 0, 0.8);
+      min-height: 85px;
+      font-size: 1.1em;
+      background: #fff;
+      text-align: center;
+      // color: rgba(254, 201, 0, 1);
+    }
+
+    &:after {
+      content: "\f061";
+      position: absolute;
+      top: 35px;
+      right: -6px;
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesome;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      color: rgba(254, 201, 0, 0.8);
+    }
+
+    &:last-child {
+      &:after {
+        content: '';
+      }
+    }
+  }
+}
