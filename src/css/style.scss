@@ -156,6 +156,7 @@ header {
       color: #fff;
       font-weight: 400;
       font-size: 0.9em;
+      margin-bottom: 15px;
     }
 
     &:after {
@@ -199,4 +200,14 @@ img.cloudokilogo {
   font-size: 1.5em;
   position: relative;
   top: 3px;
+}
+
+@media (max-width: 767px) {
+    .howto {
+      .step-wrapper {
+        &:after {
+          content: "" !important;
+        }
+      }
+    }
 }
