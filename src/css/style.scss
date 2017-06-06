@@ -4,11 +4,13 @@ body {
   font-weight: 300;
   color: #333;
   font-size: 1.6em;
+  font-family: 'Open sans', sans-serif;
 }
 
 h1, h2, h3 {
   font-weight: 300;
   line-height: 1.6em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -49,6 +51,12 @@ header {
     padding-top: 120px;
     max-width: 600px;
     margin: 0 auto;
+  }
+
+  p {
+    color: #fff;
+    font-size: 18px !important;
+    margin-top: -20px;
   }
 }
 
